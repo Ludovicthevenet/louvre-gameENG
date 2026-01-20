@@ -2,16 +2,16 @@
 // 1. SOLUTIONS DU JEU (MISES À JOUR)
 // ==========================================
 const solutions = {
-    "enigme1": { couleur: "NOIR", password: "STYLET" },
-    "enigme2": { couleur: "BLEU", password: "5" },
-    "enigme3": { couleur: "ROSE", password: "GAUCHE" },
-    "enigme4": { couleur: "BLANC", password: "PLUME" },
+    "enigme1": { couleur: "BLACK", password: "STYLET" },
+    "enigme2": { couleur: "BLUE", password: "5" },
+    "enigme3": { couleur: "PINK", password: "LEFT" },
+    "enigme4": { couleur: "WHITE", password: "FEATHER" },
     "enigme5": { couleur: "ORANGE", password: "4" },
-    "enigme6": { couleur: "VERT", password: "DISQUE" },
-    "enigme7": { couleur: "ROUGE", password: "POUTRE" },
-    "enigme8": { couleur: "OR", password: "5" },
-    "enigme9": { couleur: "ROUGE", password: "PERLE" },
-    "enigme10": { couleur: "VERT", password: "MOUSTACHE" }
+    "enigme6": { couleur: "GREEN", password: "DISC" },
+    "enigme7": { couleur: "RED", password: "BEAM" },
+    "enigme8": { couleur: "GOLD", password: "5" },
+    "enigme9": { couleur: "RED", password: "PEARL" },
+    "enigme10": { couleur: "GREEN", password: "MOUSTACHE" }
 };
 
 // ==========================================
@@ -95,3 +95,4 @@ document.addEventListener('DOMContentLoaded', () => {
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js');
 }
+
