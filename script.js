@@ -2,7 +2,7 @@
 // 1. SOLUTIONS DU JEU (MISES À JOUR)
 // ==========================================
 const solutions = {
-    "enigme1": { couleur: "BLACK", password: "STYLET" },
+    "enigme1": { couleur: "BLACK", password: "STYLUS" },
     "enigme2": { couleur: "BLUE", password: "5" },
     "enigme3": { couleur: "PINK", password: "LEFT" },
     "enigme4": { couleur: "WHITE", password: "FEATHER" },
@@ -95,4 +95,5 @@ document.addEventListener('DOMContentLoaded', () => {
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js');
 }
+
 
